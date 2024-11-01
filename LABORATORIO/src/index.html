@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Laboratorio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Estructura de Laboratorio</h1>
+
+        <div>
+            <h2>Ejercicio #1: Verificación de Calificaciones</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre"><br>
+
+            <label for="nota">Calificación:</label>
+            <input type="number" id="nota" placeholder="Ingresa tu calificación"><br>
+
+            <button onclick="verificarCalificaciones()">Mostrar Resultados</button>
+            <div id="resultadoEjercicio1" class="resultado"></div>
+        </div>
+
+
+        <div>
+            <h2>Ejercicio #2: Determinar Números Pares o Impares</h2>
+            <label for="numero">Número:</label>
+            <input type="number" id="numero" placeholder="Ingresa un número">
+
+            <button onclick="determinarParImpar()">Verificar</button>
+            <div id="resultadoEjercicio2"></div>
+
+        </div>
+
+        <div>
+            <h2>Ejercicio #3: Consulta de Descuentos</h2>
+            <label for="compra">Monto de la compra:</label>
+            <input type="number" id="compra" placeholder="Ingresa el monto de la compra">
+
+            <button onclick="Descuentos()">Calcular Descuento</button>
+            <div id="resultadoEjercicio3"></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
