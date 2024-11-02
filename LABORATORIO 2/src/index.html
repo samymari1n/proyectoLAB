@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Laboratorio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Estructura de Laboratorio</h1>
+
+        <div>
+            <h2>Ejercicio #1: Calcular Suma del Arreglo</h2>
+            <label for="num">Número:</label>
+            <input type="number" id="num" placeholder="Ingresa un número">
+
+            <button onclick="agregarNumero()">Agregar Número</button>
+            <button onclick="calcularSuma()">Calcular Suma</button>
+
+            <div id="mensaje" class="resultado"></div>
+            <div id="resultadoSuma" class="resultado"></div>
+        </div>
+
+        <div>
+            <h2>Ejercicio #2: Ingresar Número Negativo</h2>
+            <label for="numeroNegativo">Número:</label>
+            <input type="number" id="numeroNegativo" placeholder="Ingresa un número">
+
+            <button onclick="solicitarNumeroNegativo()">Ingresar Número</button>
+            <div id="resultadoNegativo" class="resultado"></div>
+        </div>
+
+        <div>
+            <h2>Ejercicio #3: Establecer y Verificar Contraseña</h2>
+
+            <label for="nuevaContraseña">Nueva Contraseña:</label>
+            <input type="password" id="nuevaContraseña" placeholder="Establece tu contraseña">
+
+            <button onclick="establecerContraseña()">Establecer Contraseña</button>
+            <div id="mensajeEstablecer" class="resultado"></div>
+
+            <label for="verificarContraseña">Ingresa tu Contraseña:</label>
+            <input type="password" id="verificarContraseña" placeholder="Ingresa la contraseña">
+
+            <button onclick="verificarContraseña()">Verificar Contraseña</button>
+            <div id="mensajeVerificar" class="resultado"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
