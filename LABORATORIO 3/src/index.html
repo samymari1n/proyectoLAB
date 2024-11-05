@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio HTML, CSS y JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Samuel Marin</h1>
+        </header>
+
+        <section id="biografia">
+            <h2>Un poco de mi Historia</h2>
+            <p>Nací en Barranquilla, Colombia, en 2005, y actualmente sigo viviendo en esta ciudad que me vio crecer.
+                Soy estudiante universitario de cuarto semestre en Ingeniería de Sistemas. Desde pequeño, me ha
+                fascinado el mundo de la tecnología, especialmente la idea de solucionar problemas complejos y crear
+                plataformas digitales. Esta curiosidad me llevó a elegir mi carrera, motivado por el desafío y la
+                creatividad que implica trabajar en seguridad informática y desarrollo de software.</p>
+            <p>A pesar de que aún no tengo experiencia laboral, estoy en proceso de construir mi hoja de vida con miras
+                a empezar a trabajar pronto. También me encuentro participando en un semillero de investigación, lo que
+                me ha permitido profundizar en mi área de estudio y desarrollar habilidades que sin duda me serán útiles
+                en el futuro.</p>
+            <p>Entre mis habilidades, destaco mi ingenio y mi capacidad para trabajar en equipo y bajo presión. Me
+                considero alguien con ideas innovadoras, con una gran capacidad de aprendizaje y retención de
+                información, y siempre dispuesto a mejorar. Aunque soy algo testarudo y a veces procrastino, me gusta
+                resolver los problemas desde la raíz, y lo hago desde el primer momento en que surgen.</p>
+            <p>En mi tiempo libre, disfruto de una gran variedad de actividades. Me encanta cantar, leer, ver series y
+                películas, y pasar tiempo con amigos. Mis gustos literarios se inclinan hacia la ficción y el fanfic,
+                mientras que en películas y series prefiero los géneros de acción, terror, thriller y comedia. También
+                disfruto de los deportes, especialmente el fútbol y el voleibol.</p>
+            <p>Mis padres y profesores han sido figuras fundamentales en mi vida, inculcándome valores importantes como
+                el respeto, el amor propio y la amistad. Estos principios me han ayudado a crecer y a mantenerme
+                enfocado en mis objetivos. Uno de mis mayores deseos es poder decir con orgullo que soy un ingeniero de
+                sistemas capacitado y trabajar en lo que realmente me gusta.</p>
+            <p>Mis metas a corto plazo incluyen avanzar en mis estudios y manejar adecuadamente mi tiempo cuando empiece
+                a trabajar. A largo plazo, me veo viviendo de mi carrera y de la música, que son dos de mis grandes
+                pasiones. También me gustaría viajar y conocer lugares como Italia, por mis raíces, o Japón, por la
+                fascinación que siempre he tenido por su cultura.</p>
+            <p>Soy una mezcla curiosa de timidez y extroversión; algunos días soy reservado, mientras que otros puedo
+                ser el alma de la fiesta. Siempre trato de hacer reír a quienes me rodean, y tengo la costumbre de
+                saludar afectuosamente cuando llego a cualquier lugar, buscando siempre crear un ambiente positivo.</p>
+            <p>Para quienes están comenzando su carrera, mi consejo es que se esfuercen y den la milla extra, sin
+                rendirse fácilmente, porque la constancia siempre trae recompensas. Creo que quienes me conocen pueden
+                encontrar en mí a alguien en quien confiar y tal vez, incluso, una fuente de inspiración.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li></li>
+                <li>Dummie en C++</li>
+                <li>Amateur en HTML</li>
+                <li>Amateur en CSS</li>
+                <li>Amateur en JavaScript</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <!-- Añade más habilidades si deseas -->
+            </ul>
+        </section>
+
+        <footer>
+            <center>
+                <p>Este artículo fue creado por &COPY;<a href="https://www.instagram.com/samymariin__"> samymariin__</a>
+                    | Contacto: <a
+                        href="mailto:smarincasale@gmail.com?subject=Bienvenida&body=Bienvenido%20a%20mi%20servicio%20de%20atenci%C3%B3n%20y%20me%20interesa%20contactarte">smarincasale@gmail.com</a>
+                    | Teléfono: <a
+                        href="https://wa.me/573003119438?text=Hola%20Sam!%20Soy%20%3Cnombre%3E%20y%20me%20interesa%20contactarte">+57
+                        (300) 311-9438</a></p>
+            </center>
+        </footer>
+
+        <div id="interactividad">
+            <button onclick="mostrarMensaje()">Haz clic para un mensaje de bienvenida</button>
+            <form onsubmit="return validarFormulario()">
+                <label for="nombreContacto">Nombre:</label>
+                <input type="text" id="nombreContacto" required>
+                <label for="emailContacto">Email:</label>
+                <input type="email" id="emailContacto" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensajeBienvenida"></p>
+        </div>
+    </div>
+</body>
+
+</html>
